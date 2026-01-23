@@ -1,0 +1,38 @@
+body{
+    background-color: #ededed;
+    margin: 0;
+}
+h1, p{
+    display: flex;
+    justify-content: center;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.product{
+    display: flex;
+    width: 250px;
+    height: 280px;
+    margin: 0 0 10px 0;
+    border-radius: 15%;
+    border: 3px #9f9f9f solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.product p{
+    color: #8a8a8a;
+}
+hr{
+    background-color: #9f9f9f;
+    height: 2px;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #2f4e2f;
+    margin: 16px 0;
+}
+.forecast-for-year{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+.month{
+    background-color: rgba(216, 255, 216, 0.56);
+    width: 200px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 16px 16px;
+}
+p{
+font-size: 15px;
+}

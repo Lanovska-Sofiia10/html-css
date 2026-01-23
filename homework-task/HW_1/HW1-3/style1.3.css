@@ -12,4 +12,5 @@ p, h1{
     background-color: rgba(247, 240, 237, 0.9);
     width: 60%;
     padding: 15px;
+    text-align: justify;
 }

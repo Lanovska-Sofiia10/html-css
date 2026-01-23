@@ -1,0 +1,42 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.fonts{
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ribeye-marrow-regular {
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.momo-signature-regular {
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.caveat {
+             font-family: "Caveat", cursive;
+             font-optical-sizing: auto;
+             font-weight: 700;
+             font-style: normal;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.qwigley-regular {
+    font-family: "Qwigley", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
