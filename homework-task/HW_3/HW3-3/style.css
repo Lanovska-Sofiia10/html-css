@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#section-blueviolet{
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align-last: center;
+    padding: 0 100px;
+}
+#section-hotpink{
+    height: 100vh;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align-last: center;
+    padding: 0 100px;
+}
+#section-mediumorchid{
+    height: 100vh;
+    background-color: mediumorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align-last: center;
+    padding: 0 100px;
+}
+a{
+    font-size: 50px;
+    color: black;
+}
+p{
+    font-size: 20px;
+}

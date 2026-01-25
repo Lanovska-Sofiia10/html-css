@@ -22,7 +22,12 @@ body{
     justify-content: space-around;
     align-items: start;
     padding: 16px 16px;
+    transition: 2s;
 }
 p{
 font-size: 15px;
+}
+.month:hover{
+    transform: scale(1.1);
+    transition: 2s;
 }

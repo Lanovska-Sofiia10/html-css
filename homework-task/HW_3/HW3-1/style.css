@@ -1,0 +1,29 @@
+header{
+    height: 33vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div{
+    width: 32vw;
+    height: 30vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 33vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
