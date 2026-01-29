@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anination{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.ship{
+    width: 100px;
+    animation: boat 10s linear infinite alternate;
+}
+.wave{
+    width: 400px;
+    animation: wave 10s linear infinite alternate;
+}
+@keyframes boat {
+    from{
+        transform: translate(0,0);
+    }
+    10%{
+        transform: translate(30px,20px);
+    }
+    20%{
+        transform: translate(60px,24px);
+    }
+    30%{
+        transform: translate(90px,20px);
+    }
+    40%{
+        transform: translate(120px,2px);
+    }
+    50%{
+        transform: translate(150px,10px);
+    }
+    60%{
+        transform: translate(180px,10px);
+    }
+    70%{
+        transform: translate(210px,20px);
+    }
+    80%{
+         transform: translate(240px,20px);
+     }
+    90%{
+          transform: translate(270px,30px);
+      }
+    to{
+        transform: translate(300px,10px);
+    }
+}
+@keyframes wave {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
