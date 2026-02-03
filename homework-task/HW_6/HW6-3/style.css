@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    display: block;
+}
+.registration-form>div>a>img{
+    width: 15px;
+    height: 15px;
+}
+.registration-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+.registration-form div:nth-child(1){
+    width: 30vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(177, 177, 177, 0.7);
+}
+.registration-form>div:nth-child(1)>h1{
+    font-family: "Lobster Two", sans-serif;
+    font-size: 40px;
+    margin: 25px 0;
+}
+.registration-form>div:nth-child(1)>form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+form input[type=text],
+input[type=password]{
+    width: 300px;
+    height: 35px;
+    border: 2px solid rgba(177, 177, 177, 0.7);
+    background: #f6f6f6;
+    border-radius: 4px;
+}
+form input[type=submit]{
+    border: none;
+    width: 300px;
+    height: 35px;
+    background: deepskyblue;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.registration-form>div:nth-child(1)>p{
+    margin: 15px 0 0 0;
+    color: grey;
+    font-weight: bold;
+}
+.registration-form>div:nth-child(1)>a{
+    text-decoration: none;
+    color: blue;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.facebook{
+    font-weight: bold;
+}
+.registration-form div:nth-child(2){
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(177, 177, 177, 0.7);
+    margin-top: 10px;
+}
+.registration-form>div:nth-child(2)>p{
+    font-size: 18px;
+}
+.registration-form>div:nth-child(2)>p>a{
+    text-decoration: none;
+    color: deepskyblue;
+    font-weight: 600;
+}
+
