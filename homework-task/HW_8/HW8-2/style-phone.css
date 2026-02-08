@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px){
+    .items{
+        width: 360px;
+        flex-wrap: wrap;
+    }
+    .item img{
+        width: 128px;
+    }
+}

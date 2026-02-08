@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+}
+.bocks{
+    width: 1180px;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.bock{
+    width: 372px;
+    text-align: center;
+}
+.bock h4{
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 20px 0 15px 0;
+}
+.bock p{
+    color: #3C3C43;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 15.6px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
